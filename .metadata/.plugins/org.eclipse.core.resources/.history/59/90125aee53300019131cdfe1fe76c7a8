@@ -1,0 +1,23 @@
+
+public class RunThread3 {
+
+	public static void main(String[] args) {
+		
+		Thread t1=new Thread1("thread1");
+		Thread t2=new Thread2("thread2");
+		Thread t3=new Thread3("thread3");
+		
+		t1.start();
+		t2.start();
+		t3.start();
+		
+		for(int i=1;i<=20;i++) {
+			System.out.println(Thread.currentThread().getName());
+			//System.out.println("tata");
+			try {
+				Thread.sleep(1000);
+			}catch(Exception e) {}
+		}
+		System.out.println(Thread.currentThread().getName()+" dead");
+	}
+}

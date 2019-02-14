@@ -1,0 +1,18 @@
+import java.io.Serializable;
+import java.util.ArrayList;
+
+public class Serializer1 {
+
+	public static void main(String[] args) {
+		
+		ArrayList<Emp> al=new ArrayList<Emp>();
+		
+	}
+
+}
+class Emp implements Serializable{
+	int x;
+	Emp(int x){
+		this.x=x;
+	}
+}

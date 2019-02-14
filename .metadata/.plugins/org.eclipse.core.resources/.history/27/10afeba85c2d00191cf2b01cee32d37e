@@ -1,0 +1,5 @@
+import java.io.Serializable;
+
+public class emp extends Base implements Serializable {
+
+}

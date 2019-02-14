@@ -1,0 +1,15 @@
+import java.io.ObjectOutputStream;
+
+public class MyClient1 {
+
+	public static void main(String[] args) {
+		ObjectOutputStream dout;
+		public MyClient1() {
+			try {
+				emp e1=new emp("ducat noida",)
+			}
+		}
+
+	}
+
+}
