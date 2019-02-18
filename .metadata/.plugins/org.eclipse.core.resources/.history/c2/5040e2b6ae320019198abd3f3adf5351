@@ -1,0 +1,31 @@
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
+public class MyItrRemoveElement {
+
+	public static void main(String[] args) {
+
+		String removeElement="Perl";
+		List<String> myList=new ArrayList<String>();
+		myList.add("Java");
+		myList.add("Unix");
+		myList.add("Oracle");
+		myList.add("C++");
+		myList.add("Perl");
+		myList.add("Perl");
+		myList.add("Perl");
+		
+		System.out.println("Before Remove");
+		System.out.println(myList);
+		
+		Iterator<String> itr=myList.iterator();
+		while(itr.hasNext()) {
+			if(myList.equals(itr.next()));
+				itr.remove();
+		}
+		System.out.println("After Remove");
+		System.out.println(myList);
+	}
+
+}

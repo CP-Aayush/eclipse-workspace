@@ -1,0 +1,14 @@
+import java.util.ArrayList;
+import java.util.Vector;
+
+public class EnsureCapacity {
+
+	public static void main(String[] args) {
+		
+		//ArrayList with capacity 4
+		//ArrayList<String> al=new ArrayList<String>(4);
+		Vector<String> al=new Vector<String>(4);
+		System.out.println(al.capacity());
+	}
+
+}

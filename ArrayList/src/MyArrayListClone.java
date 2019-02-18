@@ -1,0 +1,27 @@
+import java.util.ArrayList;
+
+public class MyArrayListClone {
+
+	public static void main(String[] args) {
+
+		ArrayList<String> al=new ArrayList<String>();
+		//adding elements to the end
+		al.add("First");
+		al.add("Second");
+		al.add("Third");
+		al.add("Ramdom");
+		System.out.println("Actual ArrayList:"+al);
+		
+		@SuppressWarnings("unchecked")
+		ArrayList<String> copy=(ArrayList<String>) al.clone();
+		System.out.println("cloned ArrayList:"+copy);
+		
+		if(al.get(0)==copy.get(0)) {
+			System.out.println("shallow");
+		}
+		if(al!=copy) {
+			System.out.println("clone");
+		}
+	}
+
+}

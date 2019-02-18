@@ -9,10 +9,7 @@
 <fullyQualifiedTypeName name="javax.swing.JTextArea"/>
 <fullyQualifiedTypeName name="javax.swing.border.EmptyBorder"/>
 <fullyQualifiedTypeName name="java.awt.TextField"/>
-<fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="java.io.ObjectInputStream"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="java.util.Iterator"/>
 <fullyQualifiedTypeName name="java.io.IOException"/>
 <fullyQualifiedTypeName name="java.io.ByteArrayOutputStream"/>
 <fullyQualifiedTypeName name="java.io.ByteArrayInputStream"/>
@@ -31,10 +28,21 @@
 <fullyQualifiedTypeName name="java.io.FileInputStream"/>
 <fullyQualifiedTypeName name="java.io.ObjectOutputStream"/>
 <fullyQualifiedTypeName name="java.io.Serializable"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="MyClient1"/>
 <fullyQualifiedTypeName name="Thread1"/>
 <fullyQualifiedTypeName name="java.lang.Exception"/>
 <fullyQualifiedTypeName name="java.lang.Thread"/>
 <fullyQualifiedTypeName name="java.lang.Runnable"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.util.Vector"/>
+<fullyQualifiedTypeName name="ArrayListDemo"/>
+<fullyQualifiedTypeName name="java.util.Collection"/>
+<fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.util.ListIterator"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.Iterator"/>
 </qualifiedTypeNameHistroy>

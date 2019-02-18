@@ -1,0 +1,24 @@
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+
+public class ArrayListRreverse {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		ArrayList<String> al=new ArrayList<String>();
+		al.add("First");
+		al.add("Second");
+		al.add("Third");
+		al.add("Ramdom");
+		System.out.println("Actual ArrayList:"+al);
+		
+		Collections.reverse(al);
+		System.out.println("Results after reverse operation");
+		for(String str:al) {
+			System.out.println(str);
+		}
+	}
+
+}
